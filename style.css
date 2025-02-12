@@ -592,3 +592,7 @@ body{
     background: none;
     background-color: rgb(1, 172, 253);
 }
+@media screen and (max-width: 576px) {
+    .main-header,.header-middle,.header-logo,.header-one,.header-two-card,.angle,.last-section,.last-section-parents,.last-section-two,.last-section-three,.main-foot,.about-school,.keep-divs,.footer-sec-main-head{
+        flex-direction: column;
+    }}
