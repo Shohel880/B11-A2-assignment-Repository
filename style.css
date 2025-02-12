@@ -519,6 +519,18 @@ body{
 .buttonses:active{
     position:relative;
     top:2px;
+    } 
+.card-one-button:hover{
+    position:relative;
+    top:2px;
+    }
+.card-two-button:hover{
+    position:relative;
+    top:2px;
+    }
+.card-three-button:hover{
+    position:relative;
+    top:2px;
     }
 .main-foot{
     background-color: rgb(1, 172, 253);
