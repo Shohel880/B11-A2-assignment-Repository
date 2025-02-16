@@ -641,7 +641,7 @@ body{
 /* media query for smart phone screen size */
 @media screen and (max-width: 768px) {
     .main-header{
-        width: 95%;
+        width: 90%;
         justify-content: space-between;
         }
     .header-middle{
@@ -659,8 +659,42 @@ body{
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
-        align-items: center;
         width: 90px;
         border: none;
         }
+    .header-one{
+        width: 90%;
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        }
+    .header-one-div-one{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 20px;
+        }
+    .header-one-child-h{
+        font-size: 2.5rem;
+        text-align: center;
+        }
+    .header-one-child-p{
+        text-align: center;
+        }
+    .header-one-child-div-buttons{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        text-align: center;
+        }
+    .header-one-child-div-img{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .header-one-child-img{
+        height: 80vw;
+        width: 70vw;
+    }
     }
