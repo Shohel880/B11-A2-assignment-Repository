@@ -641,6 +641,7 @@ body{
 /* media query for smart phone screen size */
 @media screen and (max-width: 768px) {
     .main-header{
+        width: 95%;
         justify-content: space-between;
         }
     .header-middle{
@@ -660,5 +661,6 @@ body{
         justify-content: center;
         align-items: center;
         width: 90px;
+        border: none;
         }
     }
