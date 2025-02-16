@@ -210,7 +210,7 @@ body{
     text-align: center;
     }
 .header-two-card{
-    height: 400px;
+    /* height: 400px; */
     width: 90%;
     display: flex;
     margin-left: auto;
@@ -616,12 +616,12 @@ body{
     width: 300px;
     grid-template-rows: repeat(2,1fr);
     background: none;
-}
+    }
 .keep-divs{
     display: flex;
     gap: 9px;
     background: none;
-}
+    }
 .keep{
     color: rgb(255, 255, 255);
     font-family: Quicksand;
@@ -637,37 +637,38 @@ body{
 .imgs{
     background: none;
     background-color: rgb(1, 172, 253);
-}
+    }
 /* media query for smart phone screen size */
 @media screen and (max-width: 768px) {
-    .main-header{
+.main-header{
         width: 90%;
         justify-content: space-between;
         }
-    .header-middle{
+.header-middle{
         width: 100px;
         position: relative;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
+        margin-top: 15px;
         flex-direction: column;
         }
     .img{
-        margin-left: 20px;
+        margin-left: 0;
         }
-    .home,.about,.facilities,.admission{
+.home,.about,.facilities,.admission{
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
         width: 90px;
         border: none;
         }
-    .header-one{
+.header-one{
         width: 90%;
         display: grid;
         grid-template-rows: repeat(1,1fr);
         }
-    .header-one-div-one{
+.header-one-div-one{
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
@@ -675,26 +676,39 @@ body{
         width: 90%;
         padding: 20px;
         }
-    .header-one-child-h{
+.header-one-child-h{
         font-size: 2.5rem;
         text-align: center;
         }
-    .header-one-child-p{
+.header-one-child-p{
         text-align: center;
         }
-    .header-one-child-div-buttons{
+.header-one-child-div-buttons{
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
         text-align: center;
         }
-    .header-one-child-div-img{
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
-    .header-one-child-img{
-        height: 80vw;
-        width: 70vw;
-    }
+.header-one-child-img{
+        height: 80vh;
+        width: 80vw;
+        text-align: center;
+        }
+.header-one-child-div-img{
+        text-align: center;
+        align-items: center;
+        justify-content: center
+        }
+.header-two-child-h{
+        font-size: 1.5rem;
+        }
+.header-two-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 20px;
+        }
+.card-one,.card-two,.card-three{
+        border: 1px solid yellowgreen;
+        position: relative;
+        }
     }
