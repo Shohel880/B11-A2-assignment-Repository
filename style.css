@@ -540,12 +540,14 @@ body{
     }
 .main-foot{
     background-color: rgb(1, 172, 253);
-    width: 100%;
+    width: auto;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     padding-top: 50px;
+    padding: 50px;
+    
     }
 .footer-sec-main-head{
     height: 250px;
@@ -588,9 +590,10 @@ body{
     }
 .about-school{
     padding: 8px;
-    width: 300px;
+    width: 100%;
+    justify-items: center;
     display: inline;
-    background: none;
+    background-color: rgb(1, 172, 253);
     }
 .school-about{
     color: rgb(255, 255, 255);
@@ -643,6 +646,8 @@ body{
 .main-header{
         width: 90%;
         justify-content: space-between;
+        margin: 0;
+        padding: 0;
         }
 .header-middle{
         width: 100px;
@@ -711,4 +716,78 @@ body{
         border: 1px solid yellowgreen;
         position: relative;
         }
-    }
+.last-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        }
+.last-section-one{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        }
+.last-section-two{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        }
+.last-section-child1,
+.last-section-child2,
+.last-section-child3,
+.last-section-child4{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        text-align: center;
+        }
+.last-section-child1{
+        margin-bottom: 20px;
+        }
+.last-section-three{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        }
+.main-foot{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        }
+.footer-sec-main-head{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        }
+.logo-education{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        }
+.about-school{
+        width: 90%;
+        margin-left: 5%;
+        }
+    .keep{
+        background-color: rgb(1, 172, 253);
+        margin-top: 30px;
+        padding: 0;
+        width: 100%;
+        -left: 3%;
+        }
+.keep-divs{
+        flex-direction: row;
+        background-color: rgb(1, 172, 253);
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 0;
+        margin-left: 8%;
+        cursor: pointer;
+        }
+    .keep-educaton{
+        justify-items: center;
+        }
+    .imgs{
+        background-color: rgb(1, 172, 253);
+        background: none;
+        }
+}
